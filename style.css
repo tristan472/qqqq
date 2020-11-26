@@ -1,0 +1,119 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.formulaireInscription {
+
+
+    position: absolute;
+    top: 25%; left: 33%;
+    background: #f8f9fa;
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #333;
+    padding: 15px;
+    margin-bottom: 5%;
+}
+
+.formulaireConnexion {
+
+    position: absolute;
+    top: 33%; left: 36%;
+    background: #f8f9fa;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #333;
+    padding: 15px;
+}
+
+
+.entree{
+    background: transparent;
+    border: none;
+    border-bottom: solid 2px black;
+}
+
+.produits {
+  margin-top: 35px;
+}
+
+
+.newarrival {
+  background: green;
+  width: 70px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.col-md-5{
+  margin: auto;
+}
+
+.col-md-7{
+  margin:1em;
+}
+
+.col-md-7 h2 {
+  margin: auto;
+  color: #555;
+}
+
+.prix {
+  color: #FE980F;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+
+.input {
+  background: #FE980F;
+  color: #FFFFFF;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.banniere{
+    background: url("img/bannière-velo-electrique.png");
+    position: relative;
+}
+
+.milieu{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bordure-bas{
+    border-bottom: solid 5px orange;
+}
+
+hr{
+    border-top: solid 1px grey;
+    margin: 0;
+}
+
+.ombre{
+    box-shadow: 0 0 15px 5px black;
+}
+
+.btn-primary-o{
+    background: orange;
+}
+
+@media(max-width: 800px) {
+    .titre{
+        font-size: 1rem;
+    }
+}
+
+
+.slick-slide{
+  margin: 0 20px;
+  transform: scale(0.8);
+}
+
+.slick-current{
+  transform: scale(1);
+}
